@@ -43,6 +43,7 @@
 
 /* import fonts */
 
+
 @import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Allura);
 /* import icons */
@@ -55,7 +56,94 @@
 /* body */
 
 /* ================================================== */
-
+.bg-color,
+section.bg-color,
+section.call-to-action,
+#mainmenu li li a:hover,
+.price-row,
+.blog-list .date,
+.blog-read .date,
+.slider-info .text1,
+#filters a.selected,
+.btn-primary,
+.bg-id-color,
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus,
+.dropcap,
+.fullwidthbanner-container a.btn,
+.feature-box-big-icon i,
+#testimonial-full,
+.icon-deco i,
+.blog-list .date-box .day,
+.blog-read .date-box .day,
+.bloglist .date-box .day,
+.feature-box-small-icon .border,
+.small-border,
+#jpreBar,
+.date-post,
+.team-list .small-border,
+.de-team-list .small-border,
+.btn-line:hover,
+a.btn-line:hover,
+.btn-line.hover,
+a.btn-line.hover,
+.owl-arrow span,
+.de-progress .progress-bar,
+#btn-close-x:hover,
+.box-fx .info,
+.de_tab.tab_steps .de_nav li span,
+.de_testi blockquote:before,
+#services-list li.active,
+#services-list li a:hover,
+.btn-more,
+.widget .small-border,
+.product img:hover,
+#btn-search,
+.de_tab.timeline li.active .dot,
+.custom-show:after,
+.custom-close:after,
+#back-to-top,
+a.btn-custom,
+.owl-custom-nav .btn-next:before,
+.owl-custom-nav .btn-prev:before,
+#mainmenu ul li:hover>a,
+.pricing-s1 .ribbon,
+a.btn-slider.btn-color,
+.owl-theme .owl-controls .owl-buttons div,
+.owl-theme .owl-dots .owl-dot.active span,
+#menu-btn:hover,
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link,
+.picframe.s2 span.overlay,
+input[type=submit].btn-custom,
+#contact_form input[type=submit].btn-line:hover,
+.tiny-border,
+.de_tab.tab_style_4 .de_nav li.active,
+.de_tab.tab_style_4 .de_nav li.active span,
+.de_tab.tab_style_4 .de_nav.de_nav_dark li:hover,
+.countdown-s1.countdown-bg-color .countdown-section,
+.schedule-item:hover .sc-pic img,
+#mainmenu ul.mega li li a:hover,
+#pp-nav li .active span,
+.pp-slidesNav .active span,
+.video-play-button:after,
+.video-play-button:before,
+.widget_category li:hover a,
+.f-num-inc span:hover,
+.d-cart-icon span,
+#form_coupon #btn-submit i,
+.p-tagline,
+.de__pcard .atr__promo,
+.de__pic-hover .atr__title h5,
+#de_notif,
+.de-icon i,
+.de-post-poster .d-tag {
+    background-color: var(--primary-color-1);
+}
 
 body {
     display: none;
@@ -7067,161 +7155,4 @@ header.force-header-mobile #mainmenu li ul.mega li ul {
         display: block;
         clear: both;
     }
-    /* -------------------------------------------------- 
-	custom for 320px & 480px 
-	/* -------------------------------------------------- */
-    @media only screen and (max-width: 767px) {
-        .container {
-            padding-left: 30px;
-            padding-right: 30px;
-        }
-        .feature-box-image,
-        .pricing-box {
-            margin-bottom: 30px;
-        }
-        .de_tab .de_nav li {
-            display: block;
-            width: 100%;
-        }
-        .pf_full_width .item {
-            float: left;
-            width: 49.9% !important;
-        }
-        /*.item{
-	font-size:48px;
-	line-height:48px;
-	}*/
-        .item i {
-            font-size: 36px;
-        }
-        #de-sidebar {
-            width: 100%;
-            display: block;
-            position: relative;
-        }
-        .pricing-2-col .pricing-box,
-        .pricing-3-col .pricing-box,
-        .pricing-4-col .pricing-box,
-        .pricing-5-col .pricing-box {
-            width: 100%;
-        }
-        .container-3 .de-team-list,
-        .container-4 .de-team-list {
-            width: 100%;
-            float: left;
-            position: relative;
-        }
-        .countdown-section {
-            font-size: 12px;
-        }
-        .countdown-amount {
-            font-size: 36px;
-        }
-        .de-navbar-left header #mainmenu>li>a {
-            padding-left: 40px;
-        }
-        .de-navbar-left .inner-padding {
-            padding: 0px;
-        }
-        h1.title-2 {
-            font-size: 16px;
-            letter-spacing: 10px;
-            line-height: 2em;
-        }
-        header.de_header_2 {
-            height: auto;
-        }
-        .sm-no-padding {
-            margin-top: 0;
-        }
-        .mt-sm-none {
-            margin-top: 0;
-        }
-        .text-slider {
-            font-size: 5vh;
-            letter-spacing: 1vh;
-        }
-        .schedule-item .sc-time {
-            width: 100%;
-            padding-bottom: 20px;
-            float: none;
-        }
-        .schedule-item .sc-pic {
-            width: 80px;
-        }
-        .schedule-item .sc-pic img {
-            width: 60px;
-        }
-        .schedule-item .sc-name {
-            padding-top: 5px;
-        }
-        .schedule-item .sc-info {
-            float: none;
-            display: block;
-            width: 100%;
-            clear: both;
-            padding-top: 30px;
-        }
-        .schedule-item .sc-info h3 {
-            margin-bottom: 10px;
-        }
-        h1.title-3 {
-            font-size: 10vw;
-        }
-        .owl-custom-nav.nav-in-col .btn-next {
-            right: 0;
-        }
-    }
-    /* -------------------------------------------------- 
-	design for 480px
-	/* -------------------------------------------------- */
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .container {
-            padding-left: 30px;
-            padding-right: 30px;
-        }
-        .feature-box-image,
-        .pricing-box {
-            margin-bottom: 30px;
-        }
-    }
-    /* -------------------------------------------------- 
-	design for 320px
-	/* -------------------------------------------------- */
-    @media only screen and (max-width: 480px) {
-        .pf_full_width .item {
-            float: left;
-            width: 100% !important;
-        }
-        .text-slider.fontsize40 {
-            font-size: 10vw !important;
-            letter-spacing: 1vw;
-            line-height: 15vw;
-        }
-        /*.item{
-	font-size:32px;
-	line-height:32px;
-	}*/
-        .item i {
-            font-size: 24px;
-        }
-        .grid-item .pf_title {
-            display: none;
-        }
-        .de__banner h3 {
-            font-size: 24px;
-            margin-bottom: 5px;
-        }
-        .de__banner h4 {
-            font-size: 12px;
-            margin-bottom: 5px;
-        }
-        .de__banner small {
-            font-size: 12px;
-            margin-top: 0;
-            display: none;
-        }
-        .de__banner a.btn-custom {
-            padding: 5px;
-        }
-    }
+}
