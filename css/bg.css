@@ -1,0 +1,18 @@
+/* 
+	Section Background (bg.css)
+	
+	Table of Content
+	- general settings for section & subheader
+	- general background image for subheader
+	- background settings for page subheader
+	- background settings for section
+	- subheader for side navigation
+	- media query
+*/
+
+/* general  for subheader */
+
+#section-welcome-5 {
+    background: url(../images/background/slide.webp) top fixed;
+}
+
