@@ -391,7 +391,6 @@ jQuery(document).ready(function() {
     // document on load
     jQuery(window).load(function() {
 
-        video_autosize();
         grid_gallery();
         custom_bg();
         de_count();
